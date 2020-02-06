@@ -1,4 +1,6 @@
 import { Link } from "gatsby"
+import Image from "../components/image"
+
 import PropTypes from "prop-types"
 import React from "react"
 
@@ -16,7 +18,7 @@ const Header = ({ siteTitle }) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
-      <h3 style={{ margin: 0 }}>
+      {/* <h3 style={{ margin: 0 }}>
         <Link
           to="/"
           style={{
@@ -26,7 +28,11 @@ const Header = ({ siteTitle }) => (
         >
           {siteTitle}
         </Link>
-      </h3>
+      </h3> */}
+
+      <div style={{ maxWidth: `30px` }}>
+        <Image />
+      </div>
 
       <h6 style={{ margin: 0, textAlign: `right` }}>
         <Link
@@ -34,6 +40,7 @@ const Header = ({ siteTitle }) => (
           style={{
             color: `white`,
             textDecoration: `none`,
+            paddingLeft: `10px`,
           }}
         >
           About
@@ -44,9 +51,21 @@ const Header = ({ siteTitle }) => (
           style={{
             color: `white`,
             textDecoration: `none`,
+            paddingLeft: `10px`,
           }}
         >
           Page 2
+        </Link>
+
+        <Link
+          to="/posts/"
+          style={{
+            color: `white`,
+            textDecoration: `none`,
+            paddingLeft: `10px`,
+          }}
+        >
+          Posts
         </Link>
       </h6>
     </div>
