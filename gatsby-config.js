@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Site of Qian`,
-    description: `A WIP developer blog site thing.`,
+    title: `qian.codes`,
+    description: `A WIP developer blog of a WIP developer.`,
     author: `@qiannyqianhere`,
   },
   plugins: [
@@ -31,7 +31,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/rocket-emoji.png`, // This path is relative to the root of the site.
       },
     },
     {

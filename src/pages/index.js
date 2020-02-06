@@ -8,13 +8,10 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
+    <p>Welcome to my new Gatsby site.</p>
     <Cat size={320} mood="blissful" color="#596881"></Cat>
 
-    <p>Now go build something great.</p>
-    {/* <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div> */}
+    <p>Now I'm going to build something great 😉</p>
   </Layout>
 )
 

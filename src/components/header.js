@@ -50,17 +50,6 @@ const Header = ({ siteTitle }) => (
           </Link>
 
           <Link
-            to="/page-2/"
-            style={{
-              color: `white`,
-              textDecoration: `none`,
-              paddingLeft: `10px`,
-            }}
-          >
-            Page 2
-          </Link>
-
-          <Link
             to="/posts/"
             style={{
               color: `white`,

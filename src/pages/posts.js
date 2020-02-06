@@ -1,5 +1,7 @@
 import React from "react"
-import { Link, useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
+import { SpeechBubble } from "react-kawaii"
+
 import Layout from "../components/layout"
 
 const Posts = () => {
@@ -27,12 +29,14 @@ const Posts = () => {
 
   return (
     <Layout>
-      <p>Index of all posts</p>
+      <h1>All Posts</h1>
+      <br></br>
+      <SpeechBubble size={220} mood="shocked" color="#83D1FB" />
       {/* <p>{unwrapData.frontmatter.title}</p> */}
-      <div dangerouslySetInnerHTML={{ __html: unwrapData.html }}></div>
+      <div
+        dangerouslySetInnerHTML={{ __html: unwrapData.frontmatter.title }}
+      ></div>
 
-      <Link to="/about">Go to about page</Link>
-      <Link to="/page-2/">Go to page 2</Link>
       <br></br>
     </Layout>
   )

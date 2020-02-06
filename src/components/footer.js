@@ -13,10 +13,12 @@ const Footer = ({ siteTitle }) => (
         maxWidth: 960,
       }}
     >
-      <footer style={{ color: `black` }}>
+      <footer style={{ color: `black`, fontSize: `15px` }}>
         © {new Date().getFullYear()}, Built with
         {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
+        <a href="https://www.gatsbyjs.org">Gatsby</a>, Cute React SVG components
+        by{` `}
+        <a href="https://react-kawaii.now.sh/">React Kawaii</a>{" "}
       </footer>
     </div>
   </footer>

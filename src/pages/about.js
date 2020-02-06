@@ -1,20 +1,17 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Ghost } from "react-kawaii"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 export default () => (
   <Layout>
     <SEO title="About page" />
-    <div style={{ color: `teal` }}>
-      <h1>About Gatsby</h1>
-      <p>Such wow. Very React.</p>
-      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-        <Image />
-      </div>
-      <Link to="/">Go back to the homepage</Link>
+    <div>
+      <h1>About Me</h1>
+      <Ghost size={240} mood="happy" color="#E0E4E8" />
+      <br></br>
+      <p>More details about me to come here!</p>
     </div>
   </Layout>
 )
