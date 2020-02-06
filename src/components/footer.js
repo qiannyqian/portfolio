@@ -2,9 +2,9 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Footer = ({ siteTitle }) => (
-  <header
+  <footer
     style={{
-      marginBottom: `2.45rem`,
+      marginBottom: `-2.45rem`,
     }}
   >
     <div
@@ -13,13 +13,13 @@ const Footer = ({ siteTitle }) => (
         maxWidth: 960,
       }}
     >
-      {/* <footer style={{ color: `black` }}>
+      <footer style={{ color: `black` }}>
         © {new Date().getFullYear()}, Built with
         {` `}
         <a href="https://www.gatsbyjs.org">Gatsby</a>
-      </footer> */}
+      </footer>
     </div>
-  </header>
+  </footer>
 )
 
 Footer.propTypes = {

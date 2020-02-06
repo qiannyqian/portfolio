@@ -1,5 +1,6 @@
 import { Link } from "gatsby"
 import Image from "../components/image"
+import { Planet } from "react-kawaii"
 
 import PropTypes from "prop-types"
 import React from "react"
@@ -18,56 +19,59 @@ const Header = ({ siteTitle }) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
-      {/* <h3 style={{ margin: 0 }}>
-        <Link
-          to="/"
+      <div>
+        <div
           style={{
-            color: `white`,
-            textDecoration: `none`,
+            padding: `20px`,
           }}
         >
-          {siteTitle}
-        </Link>
-      </h3> */}
+          <Planet size={50} mood="excited" color="#FCCB7E"></Planet>
+        </div>
+        <h4 style={{ margin: 0 }}>
+          <Link
+            to="/"
+            style={{
+              color: `white`,
+              textDecoration: `none`,
+            }}
+          >
+            qian.codes
+          </Link>
 
-      <div style={{ maxWidth: `30px` }}>
-        <Image />
+          <Link
+            to="/about"
+            style={{
+              color: `white`,
+              textDecoration: `none`,
+              paddingLeft: `10px`,
+            }}
+          >
+            About
+          </Link>
+
+          <Link
+            to="/page-2/"
+            style={{
+              color: `white`,
+              textDecoration: `none`,
+              paddingLeft: `10px`,
+            }}
+          >
+            Page 2
+          </Link>
+
+          <Link
+            to="/posts/"
+            style={{
+              color: `white`,
+              textDecoration: `none`,
+              paddingLeft: `10px`,
+            }}
+          >
+            Posts
+          </Link>
+        </h4>
       </div>
-
-      <h6 style={{ margin: 0, textAlign: `right` }}>
-        <Link
-          to="/about"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-            paddingLeft: `10px`,
-          }}
-        >
-          About
-        </Link>
-
-        <Link
-          to="/page-2/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-            paddingLeft: `10px`,
-          }}
-        >
-          Page 2
-        </Link>
-
-        <Link
-          to="/posts/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-            paddingLeft: `10px`,
-          }}
-        >
-          Posts
-        </Link>
-      </h6>
     </div>
   </header>
 )
