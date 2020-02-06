@@ -54,6 +54,9 @@ a {
 a:active,
 a:hover {
   outline-width: 0;
+  color: white;
+  background-image: linear-gradient(120deg, #8219ab, #109cc7);
+  text-decoration-color: #ab198b;
 }
 
 abbr[title] {

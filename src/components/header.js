@@ -1,5 +1,4 @@
 import { Link } from "gatsby"
-import Image from "../components/image"
 import { Planet } from "react-kawaii"
 
 import PropTypes from "prop-types"
