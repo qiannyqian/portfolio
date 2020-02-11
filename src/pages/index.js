@@ -11,7 +11,12 @@ const IndexPage = () => (
     <p>Welcome to my new Gatsby site.</p>
     <Cat size={320} mood="blissful" color="#596881"></Cat>
 
-    <p>Now I'm going to build something great 😉</p>
+    <p>
+      Now I'm going to build something great{" "}
+      <span role="img" aria-label="smiley emoji">
+        😉
+      </span>
+    </p>
   </Layout>
 )
 

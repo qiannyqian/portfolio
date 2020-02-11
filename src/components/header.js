@@ -49,14 +49,14 @@ const Header = ({ siteTitle }) => (
           </Link>
 
           <Link
-            to="/posts/"
+            to="/blog/"
             style={{
               color: `white`,
               textDecoration: `none`,
               paddingLeft: `10px`,
             }}
           >
-            Posts
+            Blog
           </Link>
         </h4>
       </div>

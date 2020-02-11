@@ -1,14 +1,10 @@
 ---
-layout: posts
-title: "Hello world"
-date: "2020-02-02"
+title: "First Post"
+date: "2020-02-05"
+path: "/blog/first-post"
+layout: "posts"
 ---
 
-Hello world!!!
+This is supposed to be a first post.
 
-some text
-
-list
-
-- item
-- item w
+Hello World!
