@@ -58,6 +58,17 @@ const Header = ({ siteTitle }) => (
           >
             Blog
           </Link>
+
+          <Link
+            to="/community"
+            style={{
+              color: `white`,
+              textDecoration: `none`,
+              paddingLeft: `10px`,
+            }}
+          >
+            Community
+          </Link>
         </h4>
       </div>
     </div>
