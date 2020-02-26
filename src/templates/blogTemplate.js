@@ -10,19 +10,31 @@ export default function Template({
   const { frontmatter, html } = markdownRemark
   return (
     <Layout>
-      <div className="blog-post-container">
+      <div
+        className="blog-post-container"
+        style={{
+          padding: `20px 0 20px 0`,
+        }}
+      >
         <div className="blog-post">
-          <h1>{frontmatter.title}</h1>
-          <h2>{frontmatter.date}</h2>
+          <h2>{frontmatter.title}</h2>
+          <h3>{frontmatter.date}</h3>
           <div
             className="blog-post-content"
             dangerouslySetInnerHTML={{ __html: html }}
           />
         </div>
-      </div>
 
-      <div>
-        <Link to="/blog/">Back to all blog posts</Link>
+        <div>
+          <Link
+            to="/blog/"
+            style={{
+              fontSize: `15px`,
+            }}
+          >
+            Back to all blog posts
+          </Link>
+        </div>
       </div>
     </Layout>
   )

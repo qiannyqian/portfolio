@@ -1,16 +1,10 @@
 import { Link } from "gatsby"
-import { Planet } from "react-kawaii"
 
 import PropTypes from "prop-types"
 import React from "react"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `lavenderblush`,
-      marginBottom: `1.45rem`,
-    }}
-  >
+  <header>
     <div
       style={{
         margin: `0 auto`,
@@ -21,53 +15,20 @@ const Header = ({ siteTitle }) => (
       <div>
         <div
           style={{
-            padding: `20px`,
+            padding: `10px`,
           }}
-        >
-          <Planet size={50} mood="excited" color="#FCCB7E"></Planet>
-        </div>
+        ></div>
         <h4 style={{ margin: 0 }}>
-          <Link
-            to="/"
-            style={{
-              color: `white`,
-              textDecoration: `none`,
-            }}
-          >
-            qian.codes
+          <Link className="emoji" to="/">
+            🚀
           </Link>
 
-          <Link
-            to="/about"
-            style={{
-              color: `white`,
-              textDecoration: `none`,
-              paddingLeft: `10px`,
-            }}
-          >
+          <Link to="/about" className="padding-left">
             About
           </Link>
 
-          <Link
-            to="/blog/"
-            style={{
-              color: `white`,
-              textDecoration: `none`,
-              paddingLeft: `10px`,
-            }}
-          >
+          <Link to="/blog/" className="padding-left">
             Blog
-          </Link>
-
-          <Link
-            to="/community"
-            style={{
-              color: `white`,
-              textDecoration: `none`,
-              paddingLeft: `10px`,
-            }}
-          >
-            Community
           </Link>
         </h4>
       </div>

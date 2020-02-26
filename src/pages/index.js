@@ -7,15 +7,16 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to my new Gatsby site.</p>
-    <Cat size={320} mood="blissful" color="#596881"></Cat>
-
+    <Cat size={240} mood="blissful" color="#596881"></Cat>
+    <h3>Hi, it's Qian here!</h3>
+    <p>I'm a frontend developer who has dabbled in full-stack before.</p>
     <p>
-      Now I'm going to build something great{" "}
-      <span role="img" aria-label="smiley emoji">
-        😉
-      </span>
+      While I primarily use HTML, CSS, and JS, right now I'm dabbling in React.
+      Previous tech stacks include Ruby on Rails and PHP on Laravel.
+    </p>
+    <p>
+      I'm currently open to opportunities, so if you're looking for a CV, you
+      can <a href="mailto:liang.huiqian@gmail.com">email me</a> for it!
     </p>
   </Layout>
 )

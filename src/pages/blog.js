@@ -16,8 +16,8 @@ const IndexPage = ({
 
   return (
     <Layout>
-      <h1>All Blog Posts here!</h1>
-      <SpeechBubble size={220} mood="shocked" color="#83D1FB" />
+      <h1>Posts Go Here</h1>
+      <SpeechBubble size={150} mood="shocked" color="#83D1FB" />
       <br></br>
       {Blog}
     </Layout>

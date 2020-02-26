@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `qian.codes`,
     description: `A WIP developer blog of a WIP developer.`,
-    author: `@qiannyqianhere`,
+    author: `qiannyqian`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -56,6 +56,13 @@ module.exports = {
         plugins: [],
       },
     },
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        includePaths: ["./src"],
+      },
+    },
+
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
