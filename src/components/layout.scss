@@ -47,8 +47,9 @@ template {
 }
 
 header {
-  background: lavenderblush;
+  background: lavender;
   margin-bottom: 1.45rem;
+  padding-top: 20px;
 }
 
 footer {
@@ -68,12 +69,18 @@ a {
   &.emoji {
     -webkit-text-fill-color: initial;
   }
+
+  &.icon {
+    -webkit-text-fill-color: black;
+    color: black;
+    font-size: 15px;
+  }
 }
 
 a:active,
 a:hover {
   outline-width: 0;
-  color: white;
+  color: darkmagenta;
 
 }
 
@@ -733,6 +740,10 @@ pre tt:after {
 
 .padding-left {
   padding-left: 10px;
+}
+
+.pull-right {
+  text-align: right;
 }
 
 @media only screen and (max-width: 480px) {

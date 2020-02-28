@@ -1,4 +1,8 @@
 import { Link } from "gatsby"
+import { FaGithub } from "react-icons/fa"
+import { FaTwitterSquare } from "react-icons/fa"
+import { FaLinkedinIn } from "react-icons/fa"
+import { FaCodepen } from "react-icons/fa"
 
 import PropTypes from "prop-types"
 import React from "react"
@@ -13,14 +17,9 @@ const Header = ({ siteTitle }) => (
       }}
     >
       <div>
-        <div
-          style={{
-            padding: `10px`,
-          }}
-        ></div>
-        <h4 style={{ margin: 0 }}>
+        <h3 style={{ margin: 0 }}>
           <Link className="emoji" to="/">
-            🚀
+            <span>🚀</span>
           </Link>
 
           <Link to="/about" className="padding-left">
@@ -30,7 +29,35 @@ const Header = ({ siteTitle }) => (
           <Link to="/blog/" className="padding-left">
             Blog
           </Link>
-        </h4>
+
+          <a
+            className="icon pull-right padding-left"
+            href="https://github.com/qiannyqian/"
+          >
+            <FaGithub />
+          </a>
+
+          <a
+            className="icon pull-right padding-left"
+            href="https://codepen.io/qiannyqian"
+          >
+            <FaCodepen />
+          </a>
+
+          <a
+            className="icon pull-right padding-left"
+            href="https://twitter.com/qiannyqian/"
+          >
+            <FaTwitterSquare />
+          </a>
+
+          <a
+            className="icon pull-right padding-left"
+            href="https://www.linkedin.com/in/huiqianliang/"
+          >
+            <FaLinkedinIn />
+          </a>
+        </h3>
       </div>
     </div>
   </header>
