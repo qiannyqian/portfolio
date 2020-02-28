@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import { graphql } from "gatsby"
+import { FaArrowLeft } from "react-icons/fa"
 import Layout from "../components/layout"
 
 export default function Template({
@@ -32,7 +33,7 @@ export default function Template({
               fontSize: `15px`,
             }}
           >
-            Back to all blog posts
+            <FaArrowLeft /> Back to all blog posts
           </Link>
         </div>
       </div>
