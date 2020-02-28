@@ -27,6 +27,7 @@ export default function Template({
         </div>
 
         <div>
+          <br></br>
           <Link
             to="/blog/"
             style={{

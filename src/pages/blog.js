@@ -4,6 +4,7 @@ import { SpeechBubble } from "react-kawaii"
 
 import BlogLink from "../components/bloglink"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 const IndexPage = ({
   data: {
@@ -16,6 +17,7 @@ const IndexPage = ({
 
   return (
     <Layout>
+      <SEO title="Blog" />
       <h1>Posts Go Here</h1>
       <SpeechBubble size={150} mood="shocked" color="#83D1FB" />
       <br></br>

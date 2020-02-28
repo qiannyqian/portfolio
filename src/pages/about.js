@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 
 export default () => (
   <Layout>
-    <SEO title="About page" />
+    <SEO title="About" />
     <div>
       <h1>About Me</h1>
       <Ghost size={150} mood="happy" color="#E0E4E8" />
