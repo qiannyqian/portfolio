@@ -8,11 +8,11 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Cat size={240} mood="blissful" color="#596881"></Cat>
+    <br></br>
     <h3>Hi, it's Qian here!</h3>
     <p>I'm a frontend developer who has dabbled in full-stack before.</p>
     <p>
-      While I primarily use HTML, CSS, and JS, right now I'm dabbling in React.
-      Previous tech stacks include Ruby on Rails and PHP on Laravel.
+      I primarily use HTML, CSS, and JS, and right now I'm picking up React.
     </p>
     <p>
       I'm currently open to opportunities, so if you're looking for a CV, you

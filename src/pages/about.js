@@ -13,15 +13,31 @@ export default () => (
       <br></br>
       <h4>Background</h4>
       <p>
-        Graduated with a BsC in Psychology from the University of Sheffield
-        (2014), and completed NEXT Academy's coding bootcamp in 2017.
+        Having graduated with a degree in Psychology, HR seemed like the best
+        route, and so for my first job I started with a stint in recruiting.
+        <br></br>
+        <br></br>I soon got bitten by the startup bug, and joined a startup to
+        help them with marketing initiatives, including digital marketing.
+        <br></br>
+        <br></br>In my time there, I discovered how to make webpages and
+        websites, so I then transitioned to front end development with them.
+        <br></br>
+        <br></br>
+        Feeling like I needed to know more about programming, I quit to do a 3
+        month full time bootcamp with NEXT Academy.
+        <br></br>
+        <br></br>
+        The following year, I moved to Singapore to pursue a career in tech, and
+        have primarily been working in front-end / web development.
       </p>
-
-      <h4>Career</h4>
-      <p>2 years as a front-end developer</p>
-      <p>Previously: recruiter -> marketing -> front-end dev!</p>
-
+      <h4>What I've Worked With</h4>
+      <p>
+        HTML, CSS, JS, currently learning React.
+        <br></br>Familiar with PHP on Laravel and Ruby on Rails.
+        <br></br>Other tools in my devbox: Git, MySQL, Sketch, Figma.
+      </p>
       <h4>Community</h4>
+
       <p>TLDR: Techladies, JSConf.asia, JuniorDevSG, RailsGirlsMY</p>
     </div>
   </Layout>
