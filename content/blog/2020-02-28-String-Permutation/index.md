@@ -1,7 +1,7 @@
 ---
 title: "String Permutation in JS"
 date: "2020-02-28"
-path: "/blog/changing-strings-js"
+path: "/blog/string-permutation-js"
 layout: "posts"
 ---
 
