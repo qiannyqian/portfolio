@@ -6,28 +6,27 @@ import { FaCodepen } from "react-icons/fa"
 
 import PropTypes from "prop-types"
 import React from "react"
+import "./header.scss"
 
 const Header = ({ siteTitle }) => (
   <header>
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
+    <div className="blog-layout">
       <div>
-        <h3 style={{ margin: 0 }}>
-          <Link className="emoji" to="/">
+        <h3 className="no-margin">
+          <Link className="headings emoji" to="/">
             <span>🚀</span>
           </Link>
 
-          <Link to="/about" className="padding-left">
+          <Link to="/about" className="headings padding-left">
             About
           </Link>
 
-          <Link to="/blog/" className="padding-left">
+          <Link to="/blog/" className="headings padding-left">
             Blog
+          </Link>
+
+          <Link to="/projects/" className="headings padding-left">
+            Projects
           </Link>
 
           <a

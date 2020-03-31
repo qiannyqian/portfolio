@@ -18,7 +18,7 @@ const IndexPage = ({
   return (
     <Layout>
       <SEO title="Blog" />
-      <h1>Posts Go Here</h1>
+      <h1>Blog Posts</h1>
       <SpeechBubble size={150} mood="shocked" color="#83D1FB" />
       <br></br>
       {Blog}

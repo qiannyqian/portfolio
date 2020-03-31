@@ -10,6 +10,9 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 article,
@@ -51,14 +54,15 @@ template {
 header {
   background: lavender;
   margin-bottom: 1.45rem;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 footer {
   margin-bottom: -2.45rem;
   color: black;
   font-size: 12px;
-  padding: 10px 0 10px 0;
+  padding: 20px 0 20px 0;
+  flex: 1;
 }
 
 a {
@@ -747,6 +751,17 @@ pre tt:after {
 
 .pull-right {
   text-align: right;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.blog-layout {
+  margin: 0 auto;
+  width: 600px;
+  max-width: fit-content;
+  padding: 1.45rem 1.0875rem
 }
 
 @media only screen and (max-width: 480px) {
