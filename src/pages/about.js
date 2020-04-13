@@ -38,7 +38,20 @@ export default () => (
       </p>
       <h4>Community</h4>
 
-      <p>TLDR: Techladies, JSConf.asia, JuniorDevSG, RailsGirlsMY</p>
+      <p>
+        Current: <a href="http://www.techladies.co/">Techladies</a>, Community
+        Management
+      </p>
+
+      <p>
+        Past:
+        <br></br>
+        <a href="https://juniordev.sg/">JuniorDevSG</a>
+        <br></br>
+        <a href="https://2019.jsconf.asia/">JSConf.asia (2019)</a>
+        <br></br>
+        <a href="https://railsgirlsmy.github.io/">RailsGirlsMY </a>
+      </p>
     </div>
   </Layout>
 )
