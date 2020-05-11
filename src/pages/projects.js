@@ -13,6 +13,11 @@ export default () => (
       <br></br>
       <h3>React</h3>
       <p>
+        <a href="https://todo-list-dreamy.netlify.app/">Simple to-do app</a>
+        <br></br>
+        <a href="https://github.com/qiannyqian/react-todo-app">(Github)</a>
+      </p>
+      <p>
         <a href="https://seasons-greetings-holla.netlify.com/">
           Seasons app displaying differing UI based on detected latitude
         </a>
