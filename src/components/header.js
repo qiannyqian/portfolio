@@ -10,7 +10,7 @@ import "./header.scss"
 
 const Header = ({ siteTitle }) => (
   <header>
-    <div className="blog-layout">
+    <div className="header">
       <div>
         <h3 className="no-margin">
           <Link className="headings emoji" to="/">

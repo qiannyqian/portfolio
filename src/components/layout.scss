@@ -4,30 +4,7 @@ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-}
-
-body {
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-main,
-menu,
-nav,
-section,
-summary {
-  display: block;
+  height: 100%;
 }
 
 audio,
@@ -51,19 +28,31 @@ template {
   display: none;
 }
 
-header {
+.header {
   background: lavender;
-  margin-bottom: 1.45rem;
-  padding-top: 10px;
+  padding: 1.45rem 1.0875rem;
+  flex: 1 0 auto;
+  text-align: center;
+}
+
+
+.main-container {
+  min-height: 100vh;
+  flex: 1 0 auto;
+
 }
 
 footer {
-  margin-bottom: -2.45rem;
+
+  background-color: aliceblue;
   color: black;
   font-size: 12px;
   padding: 20px 0 20px 0;
-  flex: 1;
+  text-align: center;
+
+  flex-shrink: 0
 }
+
 
 a {
   background-image: linear-gradient(120deg, #8219ab, #109cc7);
@@ -276,6 +265,11 @@ html {
 }
 
 body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
   color: hsla(0, 0%, 0%, 0.8);
   background-color: snow;
   font-family: Roboto Mono, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -288,6 +282,8 @@ body {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
+
+
 
 img {
   max-width: 100%;
@@ -757,11 +753,21 @@ pre tt:after {
   margin: 0;
 }
 
+.center-text {
+  text-align: center;
+}
+
 .blog-layout {
   margin: 0 auto;
   width: 600px;
   max-width: fit-content;
-  padding: 1.45rem 1.0875rem
+  padding: 2em;
+  flex: 1 0 auto
+}
+
+.profile-pic {
+  height: 15em;
+  border-radius: 15em
 }
 
 @media only screen and (max-width: 480px) {
