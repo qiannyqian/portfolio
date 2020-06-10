@@ -14,7 +14,7 @@ export default () => (
       <h3>React</h3>
       <p>
         <a href="https://elegant-expense-tracker.netlify.app/">
-          Expense tracking app
+          Expense tracking app build with React Hooks and Context API
         </a>
         <br></br>
         <a href="https://github.com/qiannyqian/react-expense-tracker">
