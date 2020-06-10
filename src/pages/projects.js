@@ -13,6 +13,15 @@ export default () => (
       <br></br>
       <h3>React</h3>
       <p>
+        <a href="https://elegant-expense-tracker.netlify.app/">
+          Expense tracking app
+        </a>
+        <br></br>
+        <a href="https://github.com/qiannyqian/react-expense-tracker">
+          (Github)
+        </a>
+      </p>
+      <p>
         <a href="https://todo-list-dreamy.netlify.app/">Simple to-do app</a>
         <br></br>
         <a href="https://github.com/qiannyqian/react-todo-app">(Github)</a>
